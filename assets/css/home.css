@@ -1,0 +1,48 @@
+body{
+    text-align:center;
+    font-family: sans-serif;
+}
+#page-heading{
+    color:blueviolet;
+    
+}
+#list{
+    list-style: none;
+    /* text-align:center;
+    */
+    /* margin:auto; */
+}
+/* li{
+    /* display:flex; */
+   
+    /* margin:5px; */
+    /* position:absolute; */
+  
+   
+/* } */ */
+.contact{
+   padding:3px 10px;
+   background-color: blue;
+  
+ 
+   display:flex;
+    /* text-align:center; */
+ 
+   
+    
+}
+.details{
+    /* position:absolute; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+    border:2px solid black;
+}
+.delete-button{
+    width:10%;
+}
+.contact:hover{
+    background-color: blueviolet;
+}
